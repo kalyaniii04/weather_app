@@ -1,0 +1,25 @@
+/* Root card */
+.InfoBox {
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif; */
+}
+
+/* Image */
+.InfoBox img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.InfoBox .city{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.InfoBox .info {
+    font-size: 17px;
+    line-height: 2.5;
+}
